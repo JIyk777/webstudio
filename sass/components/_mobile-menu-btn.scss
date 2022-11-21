@@ -1,0 +1,19 @@
+.menu-open-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  border: 0;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    outline: none;
+    border: 0;
+  }
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

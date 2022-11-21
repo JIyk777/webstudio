@@ -1,0 +1,49 @@
+/* customers style */
+
+.customers {
+  text-align: center;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
+    &:hover,
+    &:focus {
+      border: 1px solid var(--accent-color);
+    }
+  }
+
+  &__icon {
+    width: 106px;
+    height: 60px;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+  }
+
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    fill: var(--accent-color);
+  }
+}

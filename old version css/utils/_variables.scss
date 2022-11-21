@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+:root {
+    /* text color */
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+
+    /* accent color */
+    --accent-color: #2196f3;
+
+    /* bg color */
+    --primary-bg-color: #f5f4fa;
+    --secondary-bg-color: #2f303a;
+
+    /* main white color */
+    --white-color: #ffffff;
+
+    /* icon color */
+    --icon-color: #afb1b8;
+}
+
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* белый #ffffff */
+/* цвет акцента #2196F3 */
+/* основной цвет заливки #F5F4FA */
+/* вторичній цвет заливки #2F303A */

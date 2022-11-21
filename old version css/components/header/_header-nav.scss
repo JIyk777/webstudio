@@ -1,0 +1,46 @@
+/* nav style */
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    margin-left: 93px;
+  }
+
+  &__item + &__item {
+    margin-left: 50px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__link {
+    display: block;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: inherit;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
+    &.current {
+      color: var(--accent-color);
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+}

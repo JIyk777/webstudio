@@ -1,0 +1,19 @@
+/* footer style */
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-bg-color);
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__info {
+    min-width: 231px;
+}
+
+
+
